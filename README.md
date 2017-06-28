@@ -1,4 +1,3 @@
-# 上海数据分析微信版第一期
 
 > A Vue.js project
 

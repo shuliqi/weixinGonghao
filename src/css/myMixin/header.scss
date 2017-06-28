@@ -1,0 +1,31 @@
+ @import 'vars.scss';
+.vux-header{
+    background-color:$cor_1d1!important;
+    padding: 0!important; 
+    height: 1.75rem!important;    
+}
+.vux-demo-header-box{
+    height: 1.75rem!important;    
+}
+.vux-header .vux-header-left{
+    top: 24px; 
+    a{
+        color: #fff;
+        font-size: 0.8rem;
+    } 
+}
+.vux-header .vux-header-title, 
+.vux-header h1{
+    height: 1.75rem!important;    
+    line-height: 1.75rem!important;    
+}
+.vux-header .vux-header-left .vux-header-back{
+    margin-top: -0.8rem;
+}
+.vux-header .vux-header-left .vux-header-back:before{
+    border-width: 2px 0 0 2px;
+    border-color: #fff;
+    width: 0.5rem;
+    height: 0.5rem; 
+    top: -0.6rem;   
+}

@@ -1,0 +1,54 @@
+@import 'vars.scss';
+.footBox{
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+    height: 51px;
+    font-size: 10px;
+    -webkit-box-shadow: 0px -2px 3px rgba(103,103,103,.2);
+    box-shadow: 0px -2px 3px rgba(103,103,103,.2);
+}
+.icon{
+    font:  22px iconfont;
+    color:  $cor_a9;
+}
+.purchases:before{
+    content: '\e60f';
+}
+.sales:before{
+    content: '\e613';
+}    
+.stock:before{
+    content: '\e611';
+}     
+.search:before{
+    content: '\e608';
+}
+.weui_tabbar_icon{
+    text-align: center;
+}
+.weui_tabbar_item.weui_bar_item_on .weui_tabbar_label{
+    color: $cor_389;
+}
+.weui_tabbar_item.weui_bar_item_on .icon{
+    color: $cor_389;
+}
+.weui_tabbar_item.weui_bar_item_on .icon.purchases:before{
+    content: '\e610';
+}
+.weui_tabbar_item.weui_bar_item_on .icon.sales:before{
+    content: '\e614';
+}
+.weui_tabbar_item.weui_bar_item_on .icon.stock:before{
+    content: '\e612';
+}
+.weui_tabbar_icon+.weui_tabbar_label{
+    margin-top: 0!important;
+    font-size: 10px!important;
+    line-height: 16px!important;
+}
+.weui_tabbar_item {
+    padding: 7px 0 4px!important;
+}
